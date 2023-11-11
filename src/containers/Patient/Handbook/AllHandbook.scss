@@ -1,0 +1,34 @@
+.all-handbook-container {
+    .all-handbook-body {
+        padding: 0 200px;
+
+        .each-handbook {
+            margin: 15px 0;
+            display: flex;
+            box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+
+            .img-handbook {
+                height: 120px;
+                width: 200px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                // background-image: url('../../../assets/medical-facility/085056logobenhvien108.jpg');
+                margin: 10px 20px;
+            }
+
+            .name-handbook {
+                font-size: 20px;
+                font-weight: 600;
+                padding-top: 50px;
+
+            }
+
+            &:hover {
+                color: #45c3d2;
+                cursor: pointer;
+            }
+
+        }
+    }
+}
